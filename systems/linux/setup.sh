@@ -33,7 +33,7 @@ fi
 # Prompt for Tmux
 read -p "Do you want to install Tmux? (y/n): " tmux_choice
 if [[ "$tmux_choice" =~ ^[Yy]$ ]]; then
-    ./install/tmux.sh
+    ./installs/tmux.sh
 else
     log "Skipping Tmux setup."
 fi
