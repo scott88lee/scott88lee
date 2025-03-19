@@ -38,6 +38,12 @@ curl -sfLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --
 rm -rf nvim-linux-x86_64
 rm nvim-linux-x86_64.tar.gz
 
+# Install fzf using apt
+log "Installing fzf (Fuzzy Finder) via apt..."
+sudo apt-get update
+sudo apt-get install -y fzf
+sudo apt-get install ripgrep
+
 # Verify installation
 if command -v nvim &>/dev/null; then
     log "Neovim installed successfully."
