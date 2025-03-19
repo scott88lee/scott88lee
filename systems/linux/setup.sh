@@ -38,4 +38,12 @@ else
     log "Skipping Tmux setup."
 fi
 
+# Prompt for Server Setup
+read -p "Do you want to install Server Tools? (y/n): " server_choice
+if [[ "$server_choice" =~ ^[Yy]$ ]]; then
+    ./installs/server.sh
+else
+    log "Skipping Server setup."
+fi
+
 log "Setup complete!"
