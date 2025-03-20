@@ -1,4 +1,5 @@
-" ~/.config/nvim/init.vim
+" File location: ~/.config/nvim/init.vim
+
 call plug#begin()
 Plug 'github/copilot.vim'
 Plug 'dracula/vim', { 'as': 'dracula' }

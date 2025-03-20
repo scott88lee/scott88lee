@@ -1,0 +1,5 @@
+Host alias
+    Hostname example.com
+    Port 22
+    User exampleUser
+    IdentityFile ~/.ssh/privKeyLocation
