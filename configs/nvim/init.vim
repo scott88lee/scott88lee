@@ -1,17 +1,21 @@
 " File location: ~/.config/nvim/init.vim
 
 call plug#begin()
+
 Plug 'github/copilot.vim'
-Plug 'dracula/vim', { 'as': 'dracula' }
-Plug 'morhetz/gruvbox'
-Plug 'nvim-tree/nvim-web-devicons' " optional
-Plug 'nvim-tree/nvim-tree.lua'
-Plug 'sainnhe/sonokai'
-Plug 'sainnhe/gruvbox-material'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'preservim/nerdtree'
+Plug 'ryanoasis/vim-devicons'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.8' }
+
+Plug 'sainnhe/sonokai' " ColorScheme
 call plug#end()
+
+" Colorscheme settings
+colorscheme sonokai
+set termguicolors
+set background=dark
 
 " Ctrl N for filetree
 " Telescope settings \ff  \fg
@@ -49,16 +53,6 @@ set backspace=indent,eol,start
 
 " Enable syntax highlighting
 syntax on
-
-" Colorscheme settings
-set termguicolors
-set background=dark
-colorscheme gruvbox
-" colorscheme gruvbox-material
-" colorscheme tokyonight
-" colorscheme sonokai
-" colorscheme dracula
-" colorscheme edge
 
 " NERDTree Key mappings
 nnoremap <C-n> :NERDTreeToggle<CR>
