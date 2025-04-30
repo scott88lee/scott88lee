@@ -19,6 +19,6 @@ fi
 
 # Download tmux configuration file
 log "Setting up tmux configuration..."
-wget -q -O ~/.tmux.conf https://raw.githubusercontent.com/scott88lee/scott88lee/main/configs/tmux/tmux.conf
+wget -q -O ~/.tmux.conf https://raw.githubusercontent.com/scott88lee/scott88lee/main/configs/tmux/.tmux.conf
 
 log "tmux setup complete."
