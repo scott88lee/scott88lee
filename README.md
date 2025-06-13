@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 
 - 🔭 I’m currently working as a Full Stack Engineer
 - 🌱 I’m currently learning Kotlin
-- 👯 I’m looking to collaborate on a large Project like AI Automation projects
+- 👯 I’m looking to collaborate on any AI related or Automation projects
 - 📫 How to reach me: <a href="https://www.linkedin.com/in/scott88lee">LinkedIn</a>
 
 - ⚡ Fun fact: 
