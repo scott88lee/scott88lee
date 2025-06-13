@@ -70,7 +70,3 @@ Here are some ideas to get you started:
 ### 📊 GitHub Stats
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=scott88lee&show_icons=true&theme=tokyonight)
-
-### 🔥 GitHub Streak
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=scott88lee&theme=tokyonight)](https://git.io/streak-stats)
