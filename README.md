@@ -59,7 +59,7 @@ Plus its a really awesome bundler and test runner! Please check it out, its wort
   <img height="18px" src="https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white" />
 
 - 🗄️
-  <img height="18px" src="https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white" />
+  <img height="18px" src="https://img.shields.io/badge/terraform%232C5263.svg?style=for-the-badge&logo=terraform&logoColor=white" />
   <img height="18px" src="https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white" />
   <img height="18px" src="https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white" />
   
