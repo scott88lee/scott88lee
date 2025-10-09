@@ -2,9 +2,9 @@
 
 source helpers.sh  # Load helper functions
 
-# Prompt for Node.js version, default to 22 if not provided
-read -p "Enter the Node.js version you want to install (default is 22): " node_version
-node_version=${node_version:-22}  # Use 22 if no version is provided
+# Prompt for Node.js version, default to 24 if not provided
+read -p "Enter the Node.js version you want to install (default is 24): " node_version
+node_version=${node_version:-24}  # Use 24 if no version is provided
 
 # Check if Node.js is already installed
 if command -v node &>/dev/null; then
@@ -33,6 +33,6 @@ fi
 
 # Install global npm packages
 log "Installing useful global npm packages..."
-npm install -g nodemon ngrok pm2 yarn
+sudo npm install -g nodemon ngrok pm2
 
-log "Node.js, ngrok, nodemon, pm2, yarn setup complete."
+log "Node.js, ngrok, nodemon, pm2, setup complete."
