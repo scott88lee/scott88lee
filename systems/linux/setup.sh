@@ -5,6 +5,7 @@ source helpers.sh  # Load helper functions
 
 log "Starting system setup..."
 sudo apt update && sudo apt upgrade -y
+sudo apt install -y curl
 
 # Prompt for Git
 read -p "Do you want to install and configure Git? (y/N): " git_choice
