@@ -1,0 +1,38 @@
+{
+  "providers": {
+    "local": {
+      "baseUrl": "https://example.link/openai/v1",
+      "api": "openai-completions",
+      "apiKey": "none",
+      "models": [
+        {
+          "id": "Qwen3.8-27B-IQ4_XS.gguf",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "off": "off",
+            "minimal": null,
+            "low": "low",
+            "medium": null,
+            "high": null,
+            "xhigh": "xhigh",
+            "max": null
+          },
+          "compat": {
+            "thinkingFormat": "chat-template",
+            "chatTemplateKwargs": {
+              "enable_thinking": { "$var": "thinking.enabled" },
+              "preserve_thinking": true,
+              "reasoning_effort": { "$var": "thinking.effort", "omitWhenOff": true }
+            }
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "contextWindow": 112640,
+          "maxTokens": 32768
+        }
+      ]
+    }
+  }
+}

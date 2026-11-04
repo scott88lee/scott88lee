@@ -1,0 +1,12 @@
+{
+  "lastChangelogVersion": "1.1.0",
+  "theme": "dark",
+  "enableInstallTelemetry": false,
+  "defaultProvider": "local",
+  "defaultModel": "Qwen3.8-27B-IQ4_XS.gguf",
+  "defaultThinkingLevel": "xhigh",
+  "httpIdleTimeoutMs": 0,
+  "packages": [
+    "npm:@fyeeme/pi-peon-ping"
+  ]
+}
